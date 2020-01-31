@@ -2,15 +2,18 @@
   "name": "collages",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ruicalheno133.github.io/collages",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "aos": "^2.3.4",
+    "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-icons": "^3.8.0",
-    "react-scripts": "3.3.0"
+    "react-scripts": "3.3.0",
+    "yarn": "^1.21.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,6 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://ruicalheno.github.io/"
+  }
 }
