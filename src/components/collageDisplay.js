@@ -3,18 +3,18 @@ import AOS from "aos";
 import {FaInstagram, FaGlobe, FaBehance} from "react-icons/fa";
 
 const collageList = [
-    {bkg: '#05808F', src: '/collages/surfing.jpg', name: 'Waving', artist: 'Rui Calheno', type: 'abstract'},
-    {bkg: 'black', src: '/collages/rose_2.jpg', name: 'Rose', artist: 'Rui Calheno', type: 'abstract'},
-    {bkg: 'white', src: '/collages/floral.jpg', name: 'Floral', artist: 'Rui Calheno', type: 'abstract'},
-    {bkg: '#FFFDE3', src: '/collages/kids.jpg', name: 'Kids', artist: 'Rui Calheno', type: 'humour'},
-    {bkg: 'white', src: '/collages/all_america.jpg', name: 'All American', artist: 'Rui Calheno', type: 'humour'},
-    {bkg: 'black', src: '/collages/flowing.jpg', name: 'Flowing', artist: 'Rui Calheno', type: 'abstract'},
-    {bkg: '#744F5C', src: '/collages/peeking.jpg', name: 'Peeking', artist: 'Rui Calheno', type: 'humour'},
-    {bkg: '#FFF1F0', src: '/collages/dreaming.jpg', name: 'Dreaming', artist: 'Rui Calheno', type: 'abstract'},
-    {bkg: '#E7D6BA', src: '/collages/high_voltage.jpg', name: 'High Voltage', artist: 'Rui Calheno', type: 'abstract'},
-    {bkg: '#515151', src: '/collages/surveillance.jpg', name: 'Surveillance', artist: 'Rui Calheno', type: 'humour'},
-    {bkg: '#E0AB81', src: '/collages/alors_on_danse.jpg', name: 'Alors on danse', artist: 'Rui Calheno', type: 'abstract'},
-    {bkg: '#FFF2C3', src: '/collages/next_time.jpg', name: 'Next time...', artist: 'Rui Calheno', type: 'abstract'},
+    {bkg: '#05808F', src: '/collages/collages/surfing.jpg', name: 'Waving', artist: 'Rui Calheno', type: 'abstract'},
+    {bkg: 'black', src: '/collages/collages/rose_2.jpg', name: 'Rose', artist: 'Rui Calheno', type: 'abstract'},
+    {bkg: 'white', src: '/collages/collages/floral.jpg', name: 'Floral', artist: 'Rui Calheno', type: 'abstract'},
+    {bkg: '#FFFDE3', src: '/collages/collages/kids.jpg', name: 'Kids', artist: 'Rui Calheno', type: 'humour'},
+    {bkg: 'white', src: '/collages/collages/all_america.jpg', name: 'All American', artist: 'Rui Calheno', type: 'humour'},
+    {bkg: 'black', src: '/collages/collages/flowing.jpg', name: 'Flowing', artist: 'Rui Calheno', type: 'abstract'},
+    {bkg: '#744F5C', src: '/collages/collages/peeking.jpg', name: 'Peeking', artist: 'Rui Calheno', type: 'humour'},
+    {bkg: '#FFF1F0', src: '/collages/collages/dreaming.jpg', name: 'Dreaming', artist: 'Rui Calheno', type: 'abstract'},
+    {bkg: '#E7D6BA', src: '/collages/collages/high_voltage.jpg', name: 'High Voltage', artist: 'Rui Calheno', type: 'abstract'},
+    {bkg: '#515151', src: '/collages/collages/surveillance.jpg', name: 'Surveillance', artist: 'Rui Calheno', type: 'humour'},
+    {bkg: '#E0AB81', src: '/collages/collages/alors_on_danse.jpg', name: 'Alors on danse', artist: 'Rui Calheno', type: 'abstract'},
+    {bkg: '#FFF2C3', src: '/collages/collages/next_time.jpg', name: 'Next time...', artist: 'Rui Calheno', type: 'abstract'},
 ]
 
 class CollageDisplay extends React.Component {
